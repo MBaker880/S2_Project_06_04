@@ -14,48 +14,36 @@
 */
 /* HTML Styles */
 html {
-    /* background-image: url(br_paper.png); */
-    background-color: white;
-    min-width: 620px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-body {
     background-image: url(br_paper.png);
 }
 
-body > header img {
-    background-size: cover;
-}
+/* Body Styles */
 
-body > header nav#topNav {
-    position: absolute;
-    bottom: 0px;
-    height: 220px;
-    width: 100%;
- }
- 
- body > header nav#topNav::after {
-    clear: both;
-    content: "";
-    display: table;
- }
- 
- body > header > nav#topNav > ul {
-    position: absolute;
-    width: 100%;
- }
- 
- body > header nav#topNav li {
-    display: block;
-    float: left;
-    height: 40px;
-    letter-spacing: 5px;
-    line-height: 40px;
+body {
+    min-width: 640px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    width: 12%;
- }
+}
+
+/* Body Header Styles */
+
+header img{
+    display: block;
+    width: 100%;
+}
+header > nav {
+    display: table;
+    width: 100%;
+    margin-bottom: 5px;
+}
+nav > ul {
+    display: table-row;
+}
+header > nav > ul > li{
+    display: table-cell;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
