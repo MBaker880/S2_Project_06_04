@@ -32,14 +32,17 @@ header img{
     display: block;
     width: 100%;
 }
+
 header > nav {
     display: table;
     width: 100%;
     margin-bottom: 5px;
 }
+
 nav > ul {
     display: table-row;
 }
+
 header > nav > ul > li{
     display: table-cell;
     text-align: center;
@@ -47,3 +50,21 @@ header > nav > ul > li{
     padding-bottom: 10px;
 }
 
+#column1 {
+    display: block;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+#column2 {
+    display: block;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+#column3 {
+    display: block;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
